@@ -2,7 +2,7 @@ const AdapterBase = require('lowdb/adapters/Base');
 const fs = require('file-system');
 const crypt = require('./crypt');
 
-class NativeScriptAdapter extends AdapterBase {
+class NativeScriptEncryptedAdapter extends AdapterBase {
     read () {
         const dbFilePath = this.syncFilePath();
 
@@ -38,4 +38,4 @@ class NativeScriptAdapter extends AdapterBase {
     }
 }
 
-module.exports = NativeScriptAdapter;
+module.exports = NativeScriptEncryptedAdapter;

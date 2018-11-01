@@ -1,12 +1,12 @@
 {
-  "name": "lowdb-nativescript-adapter",
+  "name": "lowdb-encrypted-nativescript-adapter",
   "version": "0.1.0",
   "description": "A lowdb adapter for using the database from NativeScript apps.",
   "main": "index",
   "typings": "./index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ludwiktrammer/lowdb-nativescript-adapter.git"
+    "url": "https://github.com/brunoziie/lowdb-encrypted-nativescript-adapter.git"
   },
   "keywords": [
     "NativeScript",
@@ -21,10 +21,10 @@
     "tns-core-modules": "^3.0.0",
     "uuid": "^3.3.2"
   },
-  "author": "Ludwik Trammer <ludwik@gmail.com>",
+  "author": "brunoziie <eu@brunoziie.com>",
   "license": "MIT",
-  "bugs": "https://github.com/ludwiktrammer/lowdb-nativescript-adapter/issues",
-  "homepage": "https://github.com/ludwiktrammer/lowdb-nativescript-adapter",
+  "bugs": "https://github.com/brunoziie/lowdb-encrypted-nativescript-adapter/issues",
+  "homepage": "https://github.com/brunoziie/lowdb-encrypted-nativescript-adapter",
   "devDependencies": {
     "@types/lowdb": "^1.0.2"
   }
